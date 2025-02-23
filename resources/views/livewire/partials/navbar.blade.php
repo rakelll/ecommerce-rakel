@@ -4,7 +4,7 @@
         <div class="relative md:flex md:items-center md:justify-between">
             <div class="flex items-center justify-between">
                 <a class="flex-none text-xl font-semibold dark:text-white dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                    href="/" aria-label="Brand">DCodeMania</a>
+                    href="/" aria-label="Brand">TESEC</a>
                 <div class="md:hidden">
                     <button type="button"
                         class="flex items-center justify-center text-sm font-semibold text-gray-800 border border-gray-200 rounded-lg hs-collapse-toggle w-9 h-9 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
@@ -39,6 +39,19 @@
                             class="py-3 font-medium {{ request()->is('/') ? 'text-blue-600' : 'text-gray-500' }} md:py-6 dark:text-blue-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                             href="/" aria-current="page">Home</a>
 
+
+                        <a wire:navigate
+                            class="py-3 font-medium {{ request()->is('aboutus') ? 'text-blue-600' : 'text-gray-500' }} md:py-6 dark:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                            href="/about-us">
+                            About Us
+                        </a>
+
+                        <a wire:navigate
+                            class="py-3 font-medium {{ request()->is('aboutus') ? 'text-blue-600' : 'text-gray-500' }} md:py-6 dark:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                            href="/services">
+                            Services
+                        </a>
+
                         <a wire:navigate
                             class="py-3 font-medium  {{ request()->is('categories') ? 'text-blue-600' : 'text-gray-500' }} hover:text-gray-400 md:py-6 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                             href="/categories">
@@ -51,7 +64,7 @@
                             Products
                         </a>
 
-                        <a wire:navigate
+                        {{-- <a wire:navigate
                             class="flex items-center py-3 font-medium {{ request()->is('cart') ? 'text-blue-600' : 'text-gray-500' }} hover:text-gray-400 md:py-6 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                             href="/cart">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -61,20 +74,20 @@
                             </svg>
                             <span class="mr-1">Cart</span> <span
                                 class="py-0.5 px-1.5 rounded-full text-xs font-medium bg-blue-50 border border-blue-200 text-blue-600">{{ $total_count }}</span>
-                        </a>
+                        </a> --}}
 
                         @guest
                             <div class="pt-3 md:pt-0">
                                 <a wire:navigate
                                     class="py-2.5 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                                    href="/login">
+                                    href="/contact-us">
                                     <svg class="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                         <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
                                         <circle cx="12" cy="7" r="4" />
                                     </svg>
-                                    Log in
+                                    Contact us
                                 </a>
                             </div>
                         @endguest

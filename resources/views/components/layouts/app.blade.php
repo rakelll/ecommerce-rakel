@@ -15,7 +15,12 @@
     <main>
         {{ $slot }}
     </main>
-    @livewire('partials.footer')
+
+    <!-- Conditionally render footer except for the About Us page -->
+    @if (!Route::is('about-us'))
+        @livewire('partials.footer')
+    @endif
+
     @livewireScripts
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 

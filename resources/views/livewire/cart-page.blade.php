@@ -1,4 +1,4 @@
-<div class="w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
+{{-- <div class="w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
     <div class="container px-4 mx-auto">
         <h1 class="mb-4 text-2xl font-semibold">Shopping Cart</h1>
         <div class="flex flex-col gap-4 md:flex-row">
@@ -85,4 +85,4 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}

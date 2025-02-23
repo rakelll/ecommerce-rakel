@@ -1,4 +1,4 @@
-<div class="w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
+{{-- <div class="w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
     <h1 class="mb-4 text-2xl font-bold text-gray-800 dark:text-white">
         Checkout
     </h1>
@@ -219,4 +219,4 @@
             </div>
         </div>
     </form>
-</div>
+</div> --}}

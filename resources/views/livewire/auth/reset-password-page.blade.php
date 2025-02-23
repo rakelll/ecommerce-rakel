@@ -1,4 +1,4 @@
-<div class="w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
+{{-- <div class="w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
     <div class="flex items-center h-full">
         <main class="w-full max-w-md p-6 mx-auto">
             <div class="bg-white border border-gray-200 shadow-sm mt-7 rounded-xl dark:bg-gray-800 dark:border-gray-700">
@@ -79,4 +79,4 @@
             </div>
         </main>
     </div>
-</div>
+</div> --}}

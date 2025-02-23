@@ -1,4 +1,4 @@
-<div class="w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
+{{-- <div class="w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
     <h1 class="text-4xl font-bold text-slate-500">Order Details</h1>
 
     <!-- Grid -->
@@ -240,4 +240,4 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
